@@ -33,8 +33,22 @@ def multiply_by_two2(numbers: [int]) -> [int]:
     return [number * 2 for number in numbers]
 
 
+def display_even(numbers: [int]) -> None:
+    for i in range(len(numbers)):
+        if numbers[i] % 2 == 0:
+            print(numbers[i])
+
+
+def display_every_second(numbers: [int]) -> None:
+    for i in range(len(numbers)):
+        if i % 2 != 0:
+            print(numbers[i])
+
+
 if __name__ == '__main__':
     print_names(["Adam", "Krzysztof", "Weronika", "Jakub", "Marian"])
     print_names2(["Adam", "Krzysztof", "Weronika", "Jakub", "Marian"])
     print(multiply_by_two([1, 2, 3, 4, 5]))
     print(multiply_by_two2([1, 2, 3, 4, 5]))
+    display_even([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+    display_every_second([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
