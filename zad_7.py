@@ -40,7 +40,7 @@ import requests
 
 
 def get_breweries():
-    url = "https://api.openbrewerydb.org/v1/breweries?page=1&per_page=20"  # Zastąp to swoim adresem URL API
+    url = "https://api.openbrewerydb.org/v1/breweries?page=1&per_page=20"
 
     try:
         response = requests.get(url)
