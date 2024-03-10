@@ -3,9 +3,10 @@
 # uruchomić funkcję, wynik wykonania funkcji zapisać do zmiennej, a następnie
 # go wyświetlić ( print )
 
+
 def say_hello(name: str, surname: str) -> None:
     return f"Cześć {name} {surname}"
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(say_hello("Adam", "Gwozdz"))

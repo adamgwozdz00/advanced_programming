@@ -3,6 +3,7 @@
 # parametru pierwszego zawiera taką wartość jaką przekazano w parametrze
 # drugim.
 
+
 def contains(numbers: [int], number: int) -> bool:
     for i in range(len(numbers)):
         if numbers[i] == number:
@@ -10,6 +11,6 @@ def contains(numbers: [int], number: int) -> bool:
     return False
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(contains([1, 2, 3], 3))
     print(contains([1, 2, 3], 4))
