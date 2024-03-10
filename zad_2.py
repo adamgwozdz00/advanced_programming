@@ -13,6 +13,7 @@
 # (rekomendowane wykorzystanie funkcji range ), a następnie wyświetli co
 # drugi element.
 
+
 def print_names(names: [str]) -> None:
     for name in names:
         print(name)
@@ -45,7 +46,7 @@ def display_every_second(numbers: [int]) -> None:
             print(numbers[i])
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print_names(["Adam", "Krzysztof", "Weronika", "Jakub", "Marian"])
     print_names2(["Adam", "Krzysztof", "Weronika", "Jakub", "Marian"])
     print(multiply_by_two([1, 2, 3, 4, 5]))
