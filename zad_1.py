@@ -10,6 +10,6 @@ class Student:
         return sum(self.marks) / len(self.marks) > 50
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(Student("Adam", [50, 45, 60]).is_passed())
     print(Student("Weronika", [20, 60, 10]).is_passed())
